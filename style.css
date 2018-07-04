@@ -1,0 +1,30 @@
+
+
+
+* {
+
+  margin: 0;
+  padding : 0 ;
+  box-sizing : border-box;
+
+}
+
+a {
+   style: none;
+   color: black ;
+}
+
+ body {
+
+   background-color: ffff;
+
+ }
+
+
+h1 {
+
+  font-style: rile;
+  font-size : 1em;
+  color: blue;
+
+}
