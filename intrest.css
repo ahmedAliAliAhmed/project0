@@ -1,0 +1,139 @@
+
+
+    body {
+	 
+	   margin : 0;
+	  box-sizing: border-box;
+	}
+	
+	ul {
+	
+	 list-style-type: none;
+	 margin: 0;
+	 padding: 0;
+	 width: 20%;
+	 background-color:#3498DC;
+	 position : fixed;
+	 height:100%;
+	 overflow: auto;
+	 color:#212121;
+	 
+	
+	}
+	
+	
+	
+	li a {
+	
+	  display: block;
+	  color: #000;
+	  padding: 8 px 16px;
+	  text-decoration: none ;
+	  font-style: 'Open Sans', sans-serif;
+	  }
+	  
+	  
+	  li a.active {
+	  
+	     background-color:3498DC;
+		 color: white;
+	  }
+	  
+	  li a:hover:not(.active) {
+	  
+	  background-color: #555;
+	  color: white;
+	  }
+	  
+	 
+	  .content {
+		  
+		  margin-left: 20%;
+		  padding: 1px 16px;
+		  height: 1000px;
+		  
+		  
+		  
+		  
+	  }
+	 
+	  
+	  
+	  .content .photography {
+		  
+		  float: left;
+		  width: 45%;
+		  border: solid;
+		  border-radius: 25px;
+		  margin-bottom: 30px; 
+		  
+		  
+		  
+		  
+	  }
+	  
+	  
+	  .photography img {
+           display:inline;
+		   height: 300px;
+		   width: 35%;
+		   padding-left: 50px;
+		   padding-top: 20px;
+		   border-radius: 25px;
+		  
+	  }	  
+	  
+	  
+	  .photography p {
+		  
+		   padding-left: 60px;
+	  }
+	  
+	  
+	  .content .fittness {
+		  
+		  float: right;
+		  width: 45%;
+		  height:900px;
+		  border: solid;
+		  margin-bottom: 30px; 
+		  border-radius: 25px;
+		  
+		  
+		  
+		  
+	  }
+	  
+	  
+	  
+	  .content .software {
+		  float: left;
+		  width: 45%;
+		  height:500px;
+		  border: solid;
+		  border-radius: 25px;
+		  margin-bottom: 30px; 
+		  margin-left:30px;
+	  }
+	  
+	  .software p {
+		 
+         padding: 60px;	
+         font-style: 'Open Sans', sans-serif;		 
+	  }
+	  
+	  .fittness p {
+		  
+		  padding: 60px;
+		  font-style: 'Open Sans', sans-serif;
+	  }
+	  
+	   h2 {
+		   margin:0;
+		   border-radius: 25px;
+		   height: 300px;
+		   text-align: center;
+		   background-color:#3498DC;
+		   color:#292f33;
+		   font-style: 'Open Sans', sans-serif;
+	   }
